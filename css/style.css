@@ -389,13 +389,27 @@ textarea {
     font-weight: 700;
     src: url('../fonts/rubik-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-.item{
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
-    padding: 10px;
-    font-family: "Rubik";
+.mainbg{
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    border-radius: 0 0 150px 0 ;
+    background: linear-gradient(to bottom right,#EE4D47, #FFEDBA );
+
+  }
+.wrapper{
+    display: flex;
+    width: 80%;
+    margin-left: 240px;
+    margin-top: 50px;
+ 
+    margin-right: auto;
 }
+.header__logo{
+    width: 212px;
+    height: 50px;
+}
+
 
 html{
     box-sizing: border-box;

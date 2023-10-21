@@ -662,7 +662,10 @@ img{
     margin-right: auto;
   }
 
-
+  .faqs__grid-quastion:checked * .faqs__grid-item {
+    
+   z-index: auto;
+}
 .faqs__grid-quastion:checked ~ .faqs__grid-answer {
     display: flex;
 }
@@ -680,8 +683,8 @@ img{
     background-color: #FFF7F5;
     height: 100px;
     left: -0px;
-    top:75px;
-    z-index: 1000;
+    top:70px;
+    z-index: 100;
     
 }
 input[type="checkbox"] {
@@ -766,5 +769,11 @@ input[type="checkbox"] {
 .name{
     margin-left: 20px;
     font-weight: 700;
+}
+.up{
+    margin-top: -70px;
+}
+.nr{
+    margin-top: 50px;
 }
 /* LAST ABOUT  END */

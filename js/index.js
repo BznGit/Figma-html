@@ -9,7 +9,7 @@ window.onscroll = () => {
         header.classList.remove('ops');
     }
     console.log(document.body.scrollHeight, Y)
- if (Y > document.body.scrollHeight-900){
+ if (Y > document.body.scrollHeight-1900){
     header.classList.remove('ops');
  } 
 }

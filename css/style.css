@@ -864,3 +864,18 @@ input[type="checkbox"] {
 }
 
 /* LOGIN  END */
+
+/* FOOTER  START */
+.footer__content{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer__content{
+    margin-left: ;
+}
+/* FOOTER  END */

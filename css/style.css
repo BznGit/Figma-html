@@ -777,3 +777,90 @@ input[type="checkbox"] {
     margin-top: 50px;
 }
 /* LAST ABOUT  END */
+
+/* LOGIN  END */
+.login__content{
+    display: flex;
+    height: 660px;
+    width: 1400px;
+    background-color: #0F264C;
+    border-top-right-radius: 100px;
+    margin-top: 300px;
+    margin-left: -150px;
+    margin-right: auto;
+    position: relative;
+}
+.login__row{
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    justify-content: space-between;
+}
+.page__block_mod{
+    height: 140px;
+    width: 330px;
+    background-color: #b3d4fc00;
+    color: #faf3f1;
+    font-size: 20px;
+    font-family: "Rubik";
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.2;
+    padding: 15px;
+    padding-left: 40px;
+    margin-left:100px ;
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: -120px;
+    justify-content: space-between;
+    width: 550px;
+    height: 440px;
+    color: rgba(64, 43, 43, 1);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 90px 75px 52px 75px;
+}
+.login__input{
+    width: 400px;
+    height: 60px;
+    border-color: #EE4D47;
+    border-radius: 5px;
+    outline: 1px solid red;
+    padding: 20px;
+}
+.login__input:focus{
+    -webkit-box-shadow: 1px 17px 27px 0px rgba(238, 77, 71, 0.3);
+    -moz-box-shadow: 1px 17px 27px 0px rgba(238, 77, 71, 0.3);
+    box-shadow: 1px 17px 27px 0px rgba(238, 77, 71, 0.3);
+    border-width: 3px;
+}
+.logi__buttom_mod{
+    height: 60px;
+    width: 220px;
+    padding-left: 30px;
+}
+.logi__buttom_mod>p{  
+    
+    font-size: 16px;
+    font-family: "Rubik";
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+  
+}
+.login__header_mod{
+    display: flex;
+    position:absolute;
+    top:500px
+
+}
+.login__mobil{
+    position: absolute;
+    width: 489px;
+    height: 209px;
+    margin-top: -170px;
+}
+
+/* LOGIN  END */

@@ -417,9 +417,15 @@ img{
 .wrapper{
     max-width: 1260px;
     margin: 0 auto;
-
- 
 }
+
+.addwr{
+    margin-left: 140px;
+    width: 1260px;
+    display: flex;
+    flex-direction: row;
+}
+
 .shadow{
     -webkit-box-shadow: 0px 5px 10px 2px rgba(238, 77, 71, 0.2);
     -moz-box-shadow: 0px 5px 10px 2px rgba(238, 77, 71, 0.2);
@@ -446,13 +452,13 @@ img{
 
 .header__logo{
     width:max-content;
-    margin-left: 240px;
+   
    
 }
 .header__nav{
-    padding-left: 20px;
+  
     margin-left: auto;
-    margin-right: 90px
+   
 }
 .header__list{
     display: flex;
@@ -461,8 +467,6 @@ img{
     max-width: 800px;
     height: 50px;
     align-items: center;
-  
-
 }
 
 .header__item{
@@ -644,13 +648,25 @@ img{
 
 
 }
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+  }
+  .row>span{
+    width: 460px;
+  }
 .open{
     background: url(../img/svg/+.svg) no-repeat center;
     background-size: cover;
     width: 20px;
     height: 20px;
-    margin-left: 130px;
-    margin-right: auto;
+    margin-left: auto;
+    
+
   }
   .close{
     display: none;
@@ -691,19 +707,8 @@ input[type="checkbox"] {
     display: none;
     height: 150px;
   }
-.open{
-    background: url(../img/svg/+.svg) no-repeat center;
-    background-size: cover;
-    width: 20px;
-    height: 20px;
-    margin-left: 130px;
-    margin-right: auto;
-  }
-  .row{
-    display: flex;
-    flex-direction: row;
-    cursor: pointer;
-  }
+
+
 .button{
     margin-right: 135px;
     margin-top: 20px;
@@ -731,7 +736,13 @@ input[type="checkbox"] {
     margin-left: 165px;
 }
 /* FAQS end */
-
+.right{
+    display: flex;
+    justify-self:end;
+    margin-left: auto;
+    margin-right: 200px;
+    margin-top: 100px;
+}
 /* LAST ABOUT START */
 .about-text{
     width: 350px;
@@ -876,6 +887,6 @@ input[type="checkbox"] {
 
 }
 .footer__content{
-    margin-left: ;
+
 }
 /* FOOTER  END */
